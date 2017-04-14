@@ -17,7 +17,7 @@ Note that environment variable of root path of the SDK is $(INTELOCLSDKROOT) in 
 * Make new C++ Console Project in Visual Studio
 * In project properties,  
   * add "$(INTELOCLSDKROOT)include" into C/C++->General->Additional include directory    
-  * add "$(INTELOCLSDKROOT)lib" into Linker->General->Additional library directory  
+  * add "$(INTELOCLSDKROOT)lib\x86" or "$(INTELOCLSDKROOT)lib\x64" into Linker->General->Additional library directory  
   * add "OpenCL.lib" into Linker->Input->Additional Dependencies  
 
 ## Project list  
