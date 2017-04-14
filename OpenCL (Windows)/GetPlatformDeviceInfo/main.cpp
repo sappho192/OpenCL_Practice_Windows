@@ -224,7 +224,7 @@ void printDeviceInfo(_cl_platform_id* platform)
 		printf("->Compute unit(s): %d\n", units);
 		printf("->Memory address bits: %d\n", address_bits);
 		printf("->Maximum memory size: %llu(byte)\n", max_mem);
-		printf("->Device & Host %s have unified memory\n", uni_mem == CL_TRUE ? "" : "don't");
+		printf("->Device & Host %shave unified memory\n", uni_mem == CL_TRUE ? "" : "don't ");
 		printf("->Driver version: %s\n", driver_version);
 		printf("->Device version: %s\n", device_version);
 		printf("->Device extensions: %s\n", extensions);
