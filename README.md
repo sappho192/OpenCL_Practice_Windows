@@ -1,4 +1,4 @@
-# OpenCL Practice at Windows  
+﻿# OpenCL Practice at Windows  
   This project is currently based on Intel OpenCL SDK.  
 ## Testing environment  
 
@@ -23,5 +23,8 @@ Note that environment variable of root path of the SDK is $(INTELOCLSDKROOT) in 
 ## Project list  
 
 ### Hello OpenCL  
-Making "hello" string in OpenCL kernel program.  
+Make "hello" string in OpenCL kernel program.  
+
+### GetPlatformDeviceInfo   
+Retrive information of OpenCL platforms and devices.  
 
