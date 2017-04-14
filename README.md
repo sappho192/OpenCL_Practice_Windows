@@ -20,3 +20,8 @@ Note that environment variable of root path of the SDK is $(INTELOCLSDKROOT) in 
   * add "$(INTELOCLSDKROOT)lib" into Linker->General->Additional library directory  
   * add "OpenCL.lib" into Linker->Input->Additional Dependencies  
 
+## Project list  
+
+### Hello OpenCL  
+Making "hello" string in OpenCL kernel program.  
+
